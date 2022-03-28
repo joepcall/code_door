@@ -1,0 +1,95 @@
+{
+    "opentime": 10,
+    "greetingdelay": 1.2,
+    "opensound": "https://altvr-door.herokuapp.com/automaticdoor/open.ogg",
+    "closesound": "https://altvr-door.herokuapp.com/automaticdoor/close.ogg",
+    "lockedsound": "https://altvr-door.herokuapp.com/automaticdoor/locked.ogg",
+    "password": "954",
+    "isDebug": false,
+    "sensorPosition": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+    },
+    "isAutomatic": false,
+    "parts": [
+        {
+            "prefabid": "artifact:1668143687336461197",
+            "openduration": 1,
+            "closeduration": 1,
+            "closed": {
+                "position": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            },
+            "open": {
+                "position": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            }
+        },
+        {
+            "prefabid": "artifact:1668143699659326356",
+            "openduration": 1,
+            "closeduration": 1,
+            "closed": {
+                "position": {
+                    "x": 0,
+                    "y": 2,
+                    "z": 0
+                }
+            },
+            "open": {
+                "position": {
+                    "x": 0,
+                    "y": 5.23,
+                    "z": 0
+                }
+            }
+        },
+        {
+            "prefabid": "artifact:1668197132869304902",
+            "openduration": 1,
+            "closeduration": 1,
+            "isTerminal": true,
+            "closed": {
+                "position": {
+                    "x": 4,
+                    "y": 0,
+                    "z": 1
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                }
+            },
+            "open": {
+                "position": {
+                    "x": 4,
+                    "y": 0,
+                    "z": 1
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                }
+            }
+        }
+    ]
+}
